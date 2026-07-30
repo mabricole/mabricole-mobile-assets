@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Drapeau de l'Algerie">
+  <rect width="900" height="600" fill="#fff"/>
+  <rect width="450" height="600" fill="#006233"/>
+  <defs>
+    <mask id="crescent">
+      <rect width="900" height="600" fill="#fff"/>
+      <circle cx="492" cy="300" r="116" fill="#000"/>
+    </mask>
+  </defs>
+  <circle cx="450" cy="300" r="150" fill="#d21034" mask="url(#crescent)"/>
+  <polygon
+    fill="#d21034"
+    points="515,221 534,278 594,278 545,313 564,370 515,335 466,370 485,313 436,278 496,278"
+  />
+</svg>
